@@ -39,12 +39,11 @@ main h2 {
 /* Contact Information Styles */
 
 input {
-  width: 100%;
   background-color: #eff0f1;
+  width: 92%;
   border: none;
   border-radius: 4px;
   padding: 20px 10px;
-  margin: 10px 0;
   font-size: 100%;
   outline: none;
 }
@@ -53,8 +52,9 @@ input:focus {
   box-shadow:inset 0px 0px 0px 2px #46698b;
 }
 
-input[type=radio,checkbox] {
-  background-color: #fff;
+input[type=radio],
+input[type=checkbox] {
+  width: auto;
 }
 
 fieldset {
@@ -116,11 +116,24 @@ input.radio {
   float: right;
 }
 
+.contact label {
+  margin-bottom: 10px;
+}
+
 .border {
   display: block;
   margin: 0 auto;
   width: 92%;
   border-top: 2px #2d3945 solid;
+  padding-bottom: 10px;
+}
+
+.checkbox,
+.radio {
+  line-height: 2.5;
+}
+
+.newsletter label {
   padding-bottom: 10px;
 }
 /* Footer Styles */
