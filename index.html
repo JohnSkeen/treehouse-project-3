@@ -95,7 +95,7 @@
             	<option value="WY">Wyoming</option>
             </select><br />
           </div>
-          <div class="form-row">
+          <div class="form-row last-row">
             <label for="zip" class="zip-label">Zip Code</label>
             <input type="text" id="zip" name="user_zip" class="zip"><br />
           </div>
@@ -108,10 +108,10 @@
           <input type="checkbox" id="css-news" value="interest-css" name="user_newsletter"><label class="checkbox" for="css-news"> CSS News</label><br />
           <input type="checkbox" id="js-news" value="interest-js" name="user_newsletter"><label class="checkbox" for="js-news"> JavaScript News</label><br />
           <label class="sub-label">Newsletter format</label><br />
-          <input type="radio" id="format" value="html" name="user_format"><label for="html" class="radio"> HTML</label><br />
-          <input type="radio" id="format" value="plain" name="user_format"><label for="plain" class="radio"> Plain text</label><br />
+          <input type="radio" id="html-version" value="html-choice" name="user_format"><label for="html-version" class="radio"> HTML</label><br />
+          <input type="radio" id="plain-version" value="plain-choice" name="user_format"><label for="plain-version" class="radio"> Plain text</label><br />
           <label for="other" class="sub-label">Other topics you'd like to hear about</label>
-          <textarea id="other" name="user_other"></textarea>
+          <textarea id="other" name="user_other" placeholder="We'd love to know what interests you!"></textarea>
         </fieldset>
         <input type="submit" value="Sign Up"><br />
       </form>
