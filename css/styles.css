@@ -98,12 +98,17 @@ h3 {
   color: #2d3945;
 }
 
-::-webkit-input-placeholder {
+.required ::-webkit-input-placeholder {
   color: #adb2b7;
   text-align: right;
   padding: 0 20px;
   font-style: italic;
 }
+
+::-webkit-input-placeholder {
+  color: #adb2b7;
+}
+
 
 #other::-webkit-input-placeholder {
   text-align: left;
